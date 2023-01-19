@@ -7,6 +7,7 @@ export default function Navigation(){
        <Link to="/login">Login</Link>
        <Link to="/products">Products</Link>
        <Link to="/cart">Cart</Link>
+       <Link to="/contact">Contact</Link>
       </div>
 		)
 }

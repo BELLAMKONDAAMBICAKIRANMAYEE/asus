@@ -34,6 +34,7 @@ class App extends React.Component{
       <Route path="/products"element={<Products products={this.state.products}/>}/>
       <Route path="/login"element={<Login/>}/>
       <Route path="/cart"element={<Cart/>}/>
+      <Route path="/contact"element={<Contact/>}/>
       <Route path="*"element={<NotFound/>}/>
       </Routes>
       </BrowserRouter>
